@@ -6,6 +6,9 @@ has to be done manually.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Staging area is like a middle layer which adds files to git, but commit is yet
+to be done.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
