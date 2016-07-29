@@ -12,13 +12,28 @@ to be done.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I can use "git add" command anytime I feel like flagging a change. but after
+several "git add"s I'll decide to perform "git commit".
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Whenever I want to add some experimental feature which can be developed in
+parallel.
+
 How do the diagrams help you visualize the branch structure?
+
+Helps me in clearly understanding when did I made unusual changes and keep track
+of it.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Newly added lines remains, removed lines from the origin are removed if one of
+the branch has removed it. To understand better.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging is better, but it won't work most of the time. Manual merging
+is kind of hard thing, but it is doable. 
